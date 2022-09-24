@@ -1,10 +1,13 @@
 site_name: Calculation Docs
 
+site_url: https://mwwilcox.github.io/calculator
+
 theme:
   name: "material"
 
 plugins:
   - mkdocstrings
+  - search
 
 nav:
   - Calculation Docs: index.md
