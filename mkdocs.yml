@@ -11,6 +11,10 @@ theme:
     - navigation.sections
     - navigation.top
 
+# hide:
+#   - navigation
+#   - toc
+
 plugins:
   - mkdocstrings
   - search
