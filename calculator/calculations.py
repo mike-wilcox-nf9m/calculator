@@ -45,12 +45,12 @@ def add(a: Union[float, int], b: Union[float, int]) -> float:
 def subtract(a: Union[float, int], b: Union[float, int]) -> float:
     """Compute and return the difference of two numbers.
     Examples:
-    >>> subtract(4, 2)
-    2.0
-    >>> subtract(2, 4)
-    -2.0
-    >>> subtract(4.2, 2.0)
-    2.2
+        >>> subtract(4, 2)
+        2.0
+        >>> subtract(2, 4)
+        -2.0
+        >>> subtract(4.2, 2.0)
+        2.2
 
     Args:
         a: A number representing the first addend in the difference.
@@ -65,10 +65,10 @@ def subtract(a: Union[float, int], b: Union[float, int]) -> float:
 def multiply(a: Union[float, int], b: Union[float, int]) -> float:
     """Compute and return the product of two numbers.
     Examples:
-    >>> multiply(2, 2)
-    4.0
-    >>> multiply(1.5, 3.5)
-    5.25
+        >>> multiply(2, 2)
+        4.0
+        >>> multiply(1.5, 3.5)
+        5.25
 
     Args:
         a: A number representing the first addend in the product.
@@ -83,10 +83,10 @@ def multiply(a: Union[float, int], b: Union[float, int]) -> float:
 def devide(a: Union[float, int], b: Union[float, int]) -> float:
     """Compute and return the quotient of two numbers.
     examples:
-    >>> devide(4, 8)
-    0.5
-    >>> devide(8, 4)
-    2.0
+        >>> devide(4, 8)
+        0.5
+        >>> devide(8, 4)
+        2.0
 
     Args:
         a: A number representing the first addend in the quotient.
