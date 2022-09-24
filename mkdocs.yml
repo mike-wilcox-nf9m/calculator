@@ -4,6 +4,8 @@ site_url: https://mwwilcox.github.io/calculator
 
 theme:
   name: "material"
+  features:
+    - navigation.instant
 
 plugins:
   - mkdocstrings
