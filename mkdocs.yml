@@ -8,6 +8,8 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.tags
+    - navigation.sections
+    - navigation.top
 
 plugins:
   - mkdocstrings
